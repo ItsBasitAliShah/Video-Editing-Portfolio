@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Creative Editor — Short-Form Video Editing Portfolio</title>
+  <meta name="description" content="Premium short-form video editing portfolio. High-retention edits and cinematic content for top-tier creators and brands." />
+  <meta name="keywords" content="video editor, short-form content, reels, TikTok, YouTube Shorts, cinematic editing" />
+  <meta name="author" content="Creative Editor" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<!-- Subtle noise texture overlay -->
+<div class="noise-overlay" aria-hidden="true"></div>
+
+<!-- ═══════════════════════════════════════════════
+     NAVIGATION
+     ═══════════════════════════════════════════════ -->
+<nav class="navbar" id="navbar">
+  <div class="container">
+    <a href="#hero" class="nav-logo">
+      <span class="logo-dot"></span>
+      CREATIVE EDITOR
+    </a>
+
+    <ul class="nav-links" id="nav-links">
+      <li><a href="#featured">Work</a></li>
+      <li><a href="#shortform">Reels</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+
+    <div class="nav-cta-wrapper">
+      <a href="#contact" class="nav-cta">Let's Talk</a>
+    </div>
+
+    <button class="nav-toggle" id="nav-toggle" aria-label="Toggle navigation">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</nav>
+
+<!-- ═══════════════════════════════════════════════
+     HERO
+     ═══════════════════════════════════════════════ -->
+<section class="hero" id="hero">
+  <div class="hero-grid-bg" aria-hidden="true"></div>
+
+  <div class="hero-content">
+    <div class="hero-eyebrow">Video Editor</div>
+
+    <h1 class="hero-headline">
+      EDITED TO<br/>ATTRACT <span class="accent">attention.</span>
+    </h1>
+
+    <p class="hero-sub">
+      Hi, I'm Basit Ali Shah. I craft high-retention edits and cinematic long-form videos for top-tier creators and brands.
+    </p>
+
+    <a href="#featured" class="hero-cta">
+      View Work
+      <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+        <line x1="12" y1="5" x2="12" y2="19"/><polyline points="19 12 12 19 5 12"/>
+      </svg>
+    </a>
+  </div>
+
+  <div class="hero-scroll-hint" aria-hidden="true">
+    Scroll
+    <span class="scroll-line"></span>
+  </div>
+</section>
+
+<!-- ═══════════════════════════════════════════════
+     FEATURED WORK
+     ═══════════════════════════════════════════════ -->
+<section class="featured" id="featured">
+  <div class="container">
+    <div class="featured-header reveal">
+      <span class="section-label">Featured Work</span>
+      <h2 class="section-title">My Best Edits</h2>
+      <p class="section-subtitle">Marquee projects that pushed creative boundaries and drove millions of views.</p>
+    </div>
+
+    <div class="featured-grid reveal-stagger">
+      <!-- Cards rendered dynamically from data.json -->
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════════════════════════════════════════
+     SHORT-FORM HUB
+     ═══════════════════════════════════════════════ -->
+<section class="shortform" id="shortform">
+  <div class="container">
+    <div class="shortform-header reveal">
+      <span class="section-label">Short-Form Hub</span>
+      <h2 class="section-title">Reels · Shorts · TikToks</h2>
+      <p class="section-subtitle">Scroll-stopping edits designed for maximum retention.</p>
+    </div>
+  </div>
+
+  <div class="marquee-wrapper reveal">
+    <div class="marquee-track" id="marquee-track">
+      <!-- Cards rendered dynamically from data.json -->
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════════════════════════════════════════
+     LONG-FORM PROJECTS (Commented out for now)
+     ═══════════════════════════════════════════════
+<section class="longform" id="longform">
+  <div class="container">
+    <div class="longform-header reveal">
+      <span class="section-label">Long-Form Projects</span>
+      <h2 class="section-title">Cinematic & YouTube</h2>
+      <p class="section-subtitle">Full-length productions built for deeper storytelling and audience connection.</p>
+    </div>
+    <div class="longform-grid reveal-stagger"></div>
+  </div>
+</section>
+-->
+
+<!-- ═══════════════════════════════════════════════
+     IMPACT / STATS (Commented out for now)
+     ═══════════════════════════════════════════════
+<section class="impact" id="impact">
+  <div class="container">
+    <div class="impact-header reveal">
+      <span class="section-label">The Impact</span>
+      <h2 class="section-title">Numbers That Speak</h2>
+      <p class="section-subtitle">Real results from real projects.</p>
+    </div>
+    <div class="impact-grid reveal-stagger"></div>
+  </div>
+</section>
+-->
+
+<!-- ═══════════════════════════════════════════════
+     CONTACT
+     ═══════════════════════════════════════════════ -->
+<section class="contact" id="contact">
+  <div class="container">
+    <div class="contact-wrapper">
+
+      <!-- Info Column -->
+      <div class="contact-info reveal">
+        <span class="section-label">Get In Touch</span>
+        <h2 class="section-title">Let's Create<br/>Something Epic</h2>
+        <p class="contact-info-text">
+          Got a project in mind? Whether it's a brand campaign, creator content, or a full-length production — I'd love to hear about it.
+        </p>
+
+        <div class="contact-detail">
+          <div class="contact-detail-icon">
+            <svg viewBox="0 0 24 24"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+          </div>
+          <div>
+            <div class="contact-detail-label">Email</div>
+            <div class="contact-detail-value">
+              <a href="mailto:hello@creativeeditor.fake">hello@creativeeditor.fake</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="contact-detail">
+          <div class="contact-detail-icon">
+            <svg viewBox="0 0 24 24"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+          </div>
+          <div>
+            <div class="contact-detail-label">Based In</div>
+            <div class="contact-detail-value">Los Angeles, CA</div>
+          </div>
+        </div>
+
+        <div class="contact-detail">
+          <div class="contact-detail-icon">
+            <svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+          </div>
+          <div>
+            <div class="contact-detail-label">Availability</div>
+            <div class="contact-detail-value">Open for projects — 48h response</div>
+          </div>
+        </div>
+
+        <!-- Social Links -->
+        <div class="contact-socials">
+          <!-- Twitter/X -->
+          <a href="https://twitter.com/FakeEditor" target="_blank" rel="noopener noreferrer" class="social-btn" aria-label="Twitter">
+            <svg viewBox="0 0 24 24"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
+          </a>
+          <!-- Instagram -->
+          <a href="https://instagram.com/FakeEdits" target="_blank" rel="noopener noreferrer" class="social-btn" aria-label="Instagram">
+            <svg viewBox="0 0 24 24"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg>
+          </a>
+          <!-- LinkedIn -->
+          <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" class="social-btn" aria-label="LinkedIn">
+            <svg viewBox="0 0 24 24"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg>
+          </a>
+          <!-- YouTube -->
+          <a href="https://youtube.com" target="_blank" rel="noopener noreferrer" class="social-btn" aria-label="YouTube">
+            <svg viewBox="0 0 24 24"><path d="M22.54 6.42a2.78 2.78 0 0 0-1.94-2C18.88 4 12 4 12 4s-6.88 0-8.6.46a2.78 2.78 0 0 0-1.94 2A29 29 0 0 0 1 11.75a29 29 0 0 0 .46 5.33A2.78 2.78 0 0 0 3.4 19.1c1.72.46 8.6.46 8.6.46s6.88 0 8.6-.46a2.78 2.78 0 0 0 1.94-2 29 29 0 0 0 .46-5.25 29 29 0 0 0-.46-5.33z"/><polygon points="9.75 15.02 15.5 11.75 9.75 8.48 9.75 15.02"/></svg>
+          </a>
+        </div>
+      </div>
+
+      <!-- Form Column -->
+      <div class="contact-form-card reveal">
+        <h3 class="contact-form-title">Send a Message</h3>
+        <p class="contact-form-sub">Fill out the form and I'll get back to you within 48 hours.</p>
+
+        <form id="contact-form" action="https://formspree.io/f/xeewaqla" method="post" novalidate>
+            <input type="text" name="_gotcha" style="display:none" />
+          <div class="form-group" id="form-name-group">
+            <label for="form-name">Your Name</label>
+            <input type="text" id="form-name" placeholder="John Doe" autocomplete="name" />
+            <span class="error-msg">Please enter your name.</span>
+          </div>
+
+          <div class="form-group" id="form-email-group">
+            <label for="form-email">Email Address</label>
+            <input type="email" id="form-email" placeholder="john@example.com" autocomplete="email" />
+            <span class="error-msg">Please enter a valid email address.</span>
+          </div>
+
+          <div class="form-group" id="form-msg-group">
+            <label for="form-message">Project Brief</label>
+            <textarea id="form-message" placeholder="Tell me about your project — timeline, style, platform, budget..."></textarea>
+            <span class="error-msg">Please enter a brief about your project.</span>
+          </div>
+
+          <button type="submit" class="form-submit" id="form-submit-btn">
+            Send Message
+          </button>
+        </form>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════════════════════════════════════════
+     FOOTER
+     ═══════════════════════════════════════════════ -->
+<footer class="footer">
+  <div class="container">
+    <div class="footer-copy">
+      &copy; 2025 <a href="#hero">Creative Editor</a>. Crafted with precision.
+    </div>
+    <div class="footer-links">
+      <a href="#featured">Work</a>
+      <a href="#shortform">Reels</a>
+      <a href="#contact">Contact</a>
+    </div>
+  </div>
+</footer>
+
+<!-- ═══════════════════════════════════════════════
+     VIDEO MODAL
+     ═══════════════════════════════════════════════ -->
+<div class="modal-overlay" id="video-modal">
+  <div class="modal-content split-layout">
+    <button class="modal-close" aria-label="Close modal">&times;</button>
+    <div class="modal-left">
+      <div class="modal-video-wrapper portrait"></div>
+    </div>
+    <div class="modal-right">
+      <span class="modal-video-tag"></span>
+      <h3 class="modal-video-title"></h3>
+      <div class="modal-video-meta"></div>
+      <p class="modal-video-description"></p>
+    </div>
+  </div>
+</div>
+
+<!-- ═══════════════════════════════════════════════
+     SUCCESS TOAST
+     ═══════════════════════════════════════════════ -->
+<div class="toast" id="success-toast">
+  <div class="toast-icon">
+    <svg viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"/></svg>
+  </div>
+  <div>
+    <div class="toast-text">Message Sent Successfully!</div>
+    <div class="toast-sub">I'll get back to you within 48 hours.</div>
+  </div>
+</div>
+
+<script src="data.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
